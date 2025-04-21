@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #F8FAFC;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: medium;
+  color: #9AA6B2;
+  font-size: 15px;
+}
+
+h1 {
+  color:#BCCCDC;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  line-height: 1.1;
+}
+h2 {
+  color:#9AA6B2;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+h3{
+  color:#BCCCDC;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+  color: #9AA6B2;
+  text-decoration: none;
+}
+
+a:hover{
+  color: gray;
+}
+
+.img-circle{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.container {
+  margin: 0, auto;
+  padding: 20px;
+  background-color: gray;
+}
+
+.card-white{
+  background-color: #F8FAFC;
+  border: 1px, solid, lightgray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #9AA6B2;
+  margin: 20px auto;
+  padding: 20px;
+  width: 500px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
