@@ -65,7 +65,7 @@ a:hover{
 .container {
   margin: 0, auto;
   padding: 20px;
-  background-color: gray;
+  background-color: rgb(178, 188, 197);
 }
 
 .card-white{
@@ -89,4 +89,14 @@ a:hover{
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #7990ab;
+  color: white;
 }
