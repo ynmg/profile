@@ -35,6 +35,7 @@ h1 {
   font-size: 30px;
   line-height: 1.1;
 }
+
 h2 {
   color:#9AA6B2;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -74,7 +75,6 @@ a:hover{
   box-shadow: 2px 2px 5px #9AA6B2;
   margin: 20px auto;
   padding: 20px;
-  width: 500px;
 }
 
 .text-center{
